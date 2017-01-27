@@ -1,0 +1,1103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PBProfile>
+  <ChangeBot BotName="Combat Bot" />
+  <Setting DefaultValue="True" Type="Boolean" Name="Cancel Undercut Auctions" Summary="Cancels your auction which have been undercut" Category="Misc" Global="True" Hidden="False" />
+  <Setting DefaultValue="True" Type="Boolean" Name="Post to the Auction House" Summary="Posts items from your inventory to the Auction House" Category="Misc" Global="False" Hidden="False" />
+  <Setting DefaultValue="True" Type="Boolean" Name="Check Mail" Summary="Checks the mailbox when you have new mail" Category="Misc" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="CycleWait" Summary="Waits 10 minutes after each cycle of posting/buying" Category="Misc" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositOreGB" Summary="Deposits Pandarian ore to the guild bank" Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositHerbsGB" Summary="Deposits Pandarian herbs to the guild bank" Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositEnchantingMatsGB" Summary="Deposits enchanting materials to the guild bank" Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositUncutGemsGB" Summary="Deposits Pandarian uncut gems to the guild bank" Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositLeatherGB" Summary="Deposits Pandarian leather to the guild bank" Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositOrePB" Summary="Deposits ore to your personal bank" Category="Personal Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositHerbsPB" Summary="Deposits Pandarian herbs to your personal bank" Category="Personal Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositEnchantingMatsPB" Summary="Deposits Pandarian enchanting materials to your personal bank" Category="Personal Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositUncutGemsPB" Summary="Deposits Pandarian uncut gems to your personal bank" Category="Personal Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositLeatherPB" Summary="Deposits Pandarian leather to your personal bank" Category="Personal Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawGemsGB" Summary="Withdraws LEGION GEMS to sell from the guild bank (Requires Datastore WoW Addon)." Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawHerbsGB" Summary="Withdraws Pandarian herbs from the guild bank (Requires Datastore WoW Addon)." Category="Guild Bank" Global="False" Hidden="True" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawEnchantingMatsGB" Summary="Withdraws Pandarian enchanting materials from the guild bank (Requires Datastore WoW Addon)." Category="Guild Bank" Global="False" Hidden="True" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawUncutGemsGB" Summary="Withdraws Pandarian uncut gems from the guild bank (Requires Datastore WoW Addon)." Category="Guild Bank" Global="False" Hidden="True" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawLeatherGB" Summary="Withdraws Pandarian leather from the guild bank (Requires Datastore WoW Addon)." Category="Guild Bank" Global="False" Hidden="True" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawOrePB" Summary="Withdraws Pandarian ore from your personal bank" Category="Personal Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawHerbsPB" Summary="Withdraws Pandarian herbs from your personal bank" Category="Personal Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawEnchantingMatsPB" Summary="Withdraws Pandarian enchanting materials from your personal bank" Category="Personal Bank" Global="False" Hidden="True" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawUncutGemsPB" Summary="Withdraws Pandarian uncut gems from your personal bank" Category="Personal Bank" Global="False" Hidden="True" />
+  <Setting DefaultValue="False" Type="Boolean" Name="WithdrawLeatherPB" Summary="Withdraws Pandarian leather from your personal bank" Category="Personal Bank" Global="False" Hidden="True" />
+  <Setting DefaultValue="" Type="String" Name="Scribe/Alchemist" Summary="Sends Herbs to your Scribe or Alchemist" Category="Alts" Global="False" Hidden="False" />
+  <Setting DefaultValue="" Type="String" Name="Jewelcrafter" Summary="Sends Ore and Uncut Gems to your Jewelcrafter" Category="Alts" Global="False" Hidden="False" />
+  <Setting DefaultValue="" Type="String" Name="Enchanter" Summary="Send Enchanting Materials to your Enchanter" Category="Alts" Global="False" Hidden="False" />
+  <Setting DefaultValue="" Type="String" Name="Leatherworker" Summary="Send Leather to your Leatherworker" Category="Alts" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyHerbs" Summary="Buys Pandarian herbs." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyOre" Summary="Buys Pandarian Ore." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyRareMounts" Summary="Buys Rare Mounts." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyRareCompanions" Summary="Buys Rare Companions." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyEnchantingMats" Summary="Buys Pandarian enchanting materials." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyShaCrystalEnchants" Summary="Buys enchants that require Sha Crystals." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyCookingMaterials" Summary="Buys Pandarian fish, meat and vegetables used for cooking." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyFlasks" Summary="Buys Pandarian flasks." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyUncutGems" Summary="Buys Pandarian uncut Gems." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyCloth" Summary="Buys all types of Cloth." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="BuyGlyphs" Summary="Buys Glyphs." Category="AH Buy" Global="False" Hidden="True" />
+  <Setting DefaultValue="10000" Type="Int32" Name="DepositGold" Summary="Deposits all gold except this amount." Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="DepositGoldInGbank" Summary="Allows the option to deposit gold in to the Guid Bank" Category="Guild Bank" Global="False" Hidden="False" />
+  <Setting DefaultValue="1000" Type="Int32" Name="BuyOut Threshold" Summary="The minimum amount of gold required to buy from the auction house." Category="AH Buy" Global="False" Hidden="False" />
+  <Setting DefaultValue="False" Type="Boolean" Name="SendC.O.D" Summary="Sends Cash on Delivery mail." Category="C.O.D" Global="False" Hidden="False" />
+  <Setting DefaultValue="recipient1, recipient2,recipient3" Type="String" Name="Recipents" Summary="Send C.O.D mail to these people" Category="C.O.D" Global="False" Hidden="False" />
+  <Setting DefaultValue="20, 60, 100" Type="String" Name="Prices" Summary="Price per stack per itemId" Category="C.O.D" Global="False" Hidden="False" />
+  <Setting DefaultValue="52555, 72094,72103" Type="String" Name="ItemIds" Summary="Item(s) (ID From Wowhead) to send to C.O.D recipients" Category="C.O.D" Global="False" Hidden="False" />
+  <Define Code="public string[] SplitString(string recipentsString)&#xD;&#xA;{&#xD;&#xA;    string[] recipents = recipentsString.Split(',');&#xD;&#xA;    for (int i=0; i&lt;recipents.Length; i++)&#xD;&#xA;    {&#xD;&#xA;        recipents[i] = recipents[i].Trim();&#xD;&#xA;    }&#xD;&#xA;    return recipents;&#xD;&#xA;}" />
+  <Define Code="public string[] Recipients&#xD;&#xA;{&#xD;&#xA;    get { return SplitString((string)Settings[&quot;Recipents&quot;]); }&#xD;&#xA;}" />
+  <Define Code="public int[] ItemIds&#xD;&#xA;{&#xD;&#xA;    get&#xD;&#xA;    {&#xD;&#xA;        string[] idStrings = SplitString((string) Settings[&quot;ItemIds&quot;]);&#xD;&#xA;        int[] itemIds = new int[idStrings.Length];&#xD;&#xA;        for (int i = 0; i &lt; idStrings.Length; i++)&#xD;&#xA;        {&#xD;&#xA;            itemIds[i] = Int32.Parse(idStrings[i]);&#xD;&#xA;        }&#xD;&#xA;        return itemIds;&#xD;&#xA;    }&#xD;&#xA;}" />
+  <Define Code="public int[] Prices&#xD;&#xA;{&#xD;&#xA;    get&#xD;&#xA;    {&#xD;&#xA;        string[] priceStrings = SplitString((string) Settings[&quot;Prices&quot;]);&#xD;&#xA;        int[] prices = new int[priceStrings.Length];&#xD;&#xA;        for (int i = 0; i &lt; priceStrings.Length; i++)&#xD;&#xA;        {&#xD;&#xA;            prices[i] = Int32.Parse(priceStrings[i]);&#xD;&#xA;        }&#xD;&#xA;        return prices;&#xD;&#xA;    }&#xD;&#xA;}" />
+  <Define Code="public int StackSize(uint itemId)&#xD;&#xA;{&#xD;&#xA;    return Lua.GetReturnVal&lt;int&gt;(&quot;return GetItemInfo(&quot;+itemId+&quot;)&quot;, 7);&#xD;&#xA;}" />
+  <Define Code="public void CodHelper(string recipent, int itemId, int price, int amount, bool fullStacks)&#xD;&#xA;{&#xD;&#xA;    Lua.DoString(&#xD;&#xA;        &quot;local id = {0} local stackPrice = {1} local recipent = \&quot;{2}\&quot; local amount = {3} local fullSize = {4} local _,_,_,_,_,_,_,stackSize=GetItemInfo(id) local j=0 local i=0 for b=0,4 do for s=1,GetContainerNumSlots(b) do local n=GetContainerItemLink(b,s) if n then if n:find(id) and i&lt;amount then _,c=GetContainerItemInfo(b,s) if fullSize then if c==stackSize then j=j+c UseContainerItem(b,s) i=i+1 end else j=j+c UseContainerItem(b,s) i=i+1 end end end end end local codprice=j*(stackPrice/stackSize) local header,_=GetSendMailItem(1) SetSendMailCOD(codprice*10000) SendMail(recipent,header,\&quot;\&quot;)&quot;, itemId, price, recipent, amount, fullStacks);&#xD;&#xA;}" />
+  <Define Code="public void Cod(string recipent, int itemId, int price, int amount, bool fullStacks)&#xD;&#xA;{&#xD;&#xA;    int amountLeft = amount;&#xD;&#xA;    int amountToSend;&#xD;&#xA;    while (amountLeft &gt; 0)&#xD;&#xA;    {&#xD;&#xA;        if (amountLeft &gt;= 12)&#xD;&#xA;        {&#xD;&#xA;            amountToSend = 12;&#xD;&#xA;        }&#xD;&#xA;        else&#xD;&#xA;        {&#xD;&#xA;            amountToSend = amountLeft;&#xD;&#xA;        }&#xD;&#xA;        CodHelper(recipent, itemId, price, amountToSend, fullStacks);&#xD;&#xA;        amountLeft -= amountToSend;&#xD;&#xA;        Thread.Sleep(1500);&#xD;&#xA;    }&#xD;&#xA;}" />
+  <Define Code="public void SendCod(string[] recipents, int[] itemIds, int[] prices, bool fullStacks)&#xD;&#xA;{&#xD;&#xA;    if (recipents.Length == 0) return;&#xD;&#xA;    for (int i = 0; i &lt; recipents.Length; i++ )&#xD;&#xA;    {&#xD;&#xA;        uint itemId = (uint)itemIds[i];&#xD;&#xA;        int stackSize = StackSize(itemId);&#xD;&#xA;        int amount = (int)Math.Ceiling((double)InbagCount(itemId) / stackSize);&#xD;&#xA;        slog(&quot;Mailing {0} stacks of {1} to {2} for {3} per stack.&quot;, amount, itemId, recipents[i], prices[i]);&#xD;&#xA;        Cod(recipents[i], (int)itemId, prices[i], amount, fullStacks);&#xD;&#xA;    }&#xD;&#xA;}" />
+  <Define Code="private void slog(string format, params object[] args)&#xD;&#xA;{&#xD;&#xA;    Logging.Write(Colors.Crimson, &quot;AHBuddy: &quot; + format, args);&#xD;&#xA;}" />
+  <Custom Code="var1 = true;" />
+  <Custom Code="var2 = true;" />
+  <Custom Code="Log (Colors.Orange,&quot;Cancel Undercut Auctions: &quot;,Colors.OrangeRed,&quot;{0}&quot;,Settings[&quot;Cancel Undercut Auctions&quot;]);" />
+  <Custom Code="Log (Colors.Orange,&quot;Post to the Auction House: &quot;,Colors.OrangeRed,&quot;{0}&quot;,Settings[&quot;Post to the Auction House&quot;]);" />
+  <Custom Code="Log (Colors.Orange,&quot;Check Mail: &quot;,Colors.OrangeRed,&quot;{0}&quot;,Settings[&quot;Check Mail&quot;]);" />
+  <Custom Code="Log (Colors.Orange,&quot;CycleWait: &quot;,Colors.OrangeRed,&quot;{0}&quot;,Settings[&quot;CycleWait&quot;]);" />
+  <Custom Code="Log (Colors.Orange,&quot;DepositGoldInGbank: &quot;,Colors.OrangeRed,&quot;{0}&quot;,Settings[&quot;DepositGoldInGbank&quot;]);" />
+  <If Condition="(bool)Settings[&quot;DepositGoldInGbank&quot;]" IgnoreCanRun="False">
+    <Custom Code="Log (Colors.Orange,&quot;DepositGold: &quot;,Colors.OrangeRed,&quot;{0} Gold&quot;,(int)Settings[&quot;DepositGold&quot;]);" />
+  </If>
+  <Custom Code="Log (Colors.Orange,&quot;BuyOut Threshold: &quot;,Colors.OrangeRed,&quot;{0} Gold&quot;,(int)Settings[&quot;BuyOut Threshold&quot;]);" />
+  <Custom Code="Log (Colors.Orange,&quot;Current Gold: &quot;,Colors.OrangeRed,&quot;{0} Gold&quot;,(int)Me.Gold);" />
+  <If Condition="!string.IsNullOrEmpty((string)Settings[&quot;Scribe/Alchemist&quot;])" IgnoreCanRun="False">
+    <Custom Code="Log (Colors.Orange,&quot;Scribe/Alchemist: &quot;,Colors.OrangeRed,&quot;{0}&quot;,(string)Settings[&quot;Scribe/Alchemist&quot;]);" />
+  </If>
+  <If Condition="!string.IsNullOrEmpty((string)Settings[&quot;Leatherworker&quot;])" IgnoreCanRun="False">
+    <Custom Code="Log (Colors.Orange,&quot;Leatherworker: &quot;,Colors.OrangeRed,&quot;{0}&quot;,(string)Settings[&quot;Leatherworker&quot;]);" />
+  </If>
+  <If Condition="!string.IsNullOrEmpty((string)Settings[&quot;Jewelcrafter&quot;])" IgnoreCanRun="False">
+    <Custom Code="Log (Colors.Orange,&quot;Jewelcrafter: &quot;,Colors.OrangeRed,&quot;{0}&quot;,(string)Settings[&quot;Jewelcrafter&quot;]);" />
+  </If>
+  <If Condition="!string.IsNullOrEmpty((string)Settings[&quot;Enchanter&quot;])" IgnoreCanRun="False">
+    <Custom Code="Log (Colors.Orange,&quot;Enchanter: &quot;,Colors.OrangeRed,&quot;{0}&quot;,(string)Settings[&quot;Enchanter&quot;]);" />
+  </If>
+  <While PulseSecondaryBot="True" Condition="true" IgnoreCanRun="True">
+    <StackItems />
+    <If Condition="((bool)var1) || (HasNewMail || MailCount&gt; 0) &amp;&amp; (bool)Settings[&quot;Check Mail&quot;] &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Checking for new mail.&quot;);" />
+      <GetMail GetMailType="AllItems" ItemID="0" MaxCODAmount="0g0s0c" MinFreeBagSlots="0" AutoFindMailBox="True" Location="0, 0, 0" />
+    </If>
+    <Custom Code="var1 = false;" />
+    <Custom Code="KeyboardManager.AntiAfk();" />
+    <CallSubRoutine SubRoutineName="CountInv" />
+    <CallSubRoutine SubRoutineName="GetGems" />
+    <CallSubRoutine SubRoutineName="GetHerbs" />
+    <CallSubRoutine SubRoutineName="SendHerbs" />
+    <CallSubRoutine SubRoutineName="SendOre" />
+    <CallSubRoutine SubRoutineName="SendEnchantingMats" />
+    <CallSubRoutine SubRoutineName="SendUncutGems" />
+    <CallSubRoutine SubRoutineName="SendLeather" />
+    <If Condition="(bool)Settings[&quot;SendC.O.D&quot;]" IgnoreCanRun="True">
+      <CallSubRoutine SubRoutineName="Send C.O.D Mail" />
+    </If>
+    <StackItems />
+    <If Condition="(bool)Settings[&quot;Cancel Undercut Auctions&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Checking for undercut auctions.&quot;);" />
+      <CancelAuction UseCategory="False" Category="TradeGoods" SubCategory="None" SubCategoryType="WoWItemTradeGoodsClass" ItemID="0" AutoFindAh="True" MinBuyout="0g0s0c" Location="0, 0, 0" IgnoreStackSizeBelow="1" />
+    </If>
+    <If Condition="(HasNewMail || MailCount&gt; 0) &amp;&amp; (bool)Settings[&quot;Check Mail&quot;] &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Checking for new mail.&quot;);" />
+      <GetMail GetMailType="AllItems" ItemID="0" MaxCODAmount="0g0s0c" MinFreeBagSlots="0" AutoFindMailBox="True" Location="0, 0, 0" />
+    </If>
+    <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <CallSubRoutine SubRoutineName="BuyFromAH" />
+    </If>
+    <If Condition="(int)Me.Gold &lt; (int)Settings[&quot;BuyOut Threshold&quot;] &amp;&amp; ((bool)Settings[&quot;BuyHerbs&quot;] || (bool)Settings[&quot;BuyOre&quot;] || (bool)Settings[&quot;BuyEnchantingMats&quot;] || (bool)Settings[&quot;BuyCookingMaterials&quot;] || (bool)Settings[&quot;BuyFlasks&quot;] || (bool)Settings[&quot;BuyShaCrystalEnchants&quot;] || (bool)Settings[&quot;BuyRareMounts&quot;] || (bool)Settings[&quot;BuyRareCompanions&quot;] || (bool)Settings[&quot;BuyUncutGems&quot;] || (bool)Settings[&quot;BuyCloth&quot;])" IgnoreCanRun="True">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Requires atleast {0} Gold to buy from the auction house.&quot;,(int)Settings[&quot;BuyOut Threshold&quot;]);" />
+    </If>
+    <If Condition="(HasNewMail || MailCount&gt; 0) &amp;&amp; (bool)Settings[&quot;Check Mail&quot;] &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Checking for new mail.&quot;);" />
+    </If>
+    <If Condition="(bool)Settings[&quot;DepositGoldInGbank&quot;] &amp;&amp; (int)Me.Gold &gt; (int)Settings[&quot;DepositGold&quot;]" IgnoreCanRun="True">
+      <CallSubRoutine SubRoutineName="DepositGoldInGbank" />
+    </If>
+    <CallSubRoutine SubRoutineName="GetGems" />
+    <CallSubRoutine SubRoutineName="GetHerbs" />
+    <GetMail GetMailType="AllItems" ItemID="" MaxCODAmount="0g0s0c" MinFreeBagSlots="0" AutoFindMailBox="True" Location="0, 0, 0" />
+    <StackItems />
+    <CallSubRoutine SubRoutineName="SendHerbs" />
+    <CallSubRoutine SubRoutineName="SendOre" />
+    <CallSubRoutine SubRoutineName="SendEnchantingMats" />
+    <CallSubRoutine SubRoutineName="SendUncutGems" />
+    <CallSubRoutine SubRoutineName="SendLeather" />
+    <If Condition="(bool)Settings[&quot;SendC.O.D&quot;]" IgnoreCanRun="True">
+      <CallSubRoutine SubRoutineName="Send C.O.D Mail" />
+    </If>
+    <CallSubRoutine SubRoutineName="PostToAH" />
+    <If Condition="(bool)Settings[&quot;CycleWait&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Waiting 10 Minutes to start next cycle.&quot;);" />
+      <Wait Condition="false" Timeout="600000" />
+    </If>
+  </While>
+  <SubRoutine SubRoutineName="BuyFromAH">
+    <StackItems />
+    <!--Herbs-->
+    <If Condition="(bool)Settings[&quot;BuyHerbs&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for herbs to buy.&quot;);" />
+      <!--Peacebloom-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="2447" MaxBuyout="0g20s0c" Amount="1000" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Ore-->
+    <If Condition="(bool)Settings[&quot;BuyOre&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Ore to buy.&quot;);" />
+      <!--Ghost Iron Ore-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="72092" MaxBuyout="0g0s0c" Amount="600" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Enchanting Materials-->
+    <If Condition="(bool)Settings[&quot;BuyEnchantingMats&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Enchanting materials to buy.&quot;);" />
+      <!--Sha Crystal-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="74248" MaxBuyout="0g0s0c" Amount="100" BuyAdditively="False" AutoFindAh="True" BidOnItem="False" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Cooking Materials-->
+    <If Condition="(bool)Settings[&quot;BuyCookingMaterials&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Cooking Materials to buy.&quot;);" />
+      <!--Emperor Salmon-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="74859" MaxBuyout="0g0s0c" Amount="300" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Flasks-->
+    <If Condition="(bool)Settings[&quot;BuyFlasks&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Flasks to buy.&quot;);" />
+      <!--Flask of Falling Leaves-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="76086" MaxBuyout="0g0s0c" Amount="200" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Sha Crystal Enchants-->
+    <If Condition="(bool)Settings[&quot;BuyShaCrystalEnchants&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Sha Crysal enchants to buy.&quot;);" />
+      <!--Enchant Weapon - Jade Spirit-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="74724" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Rare Mounts-->
+    <If Condition="(bool)Settings[&quot;BuyRareMounts&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Rare Mounts to buy.&quot;);" />
+      <!--Reins of the Swift Spectral Tiger-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="49284" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Reins of the Spectral Tiger-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="49283" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Big Battle Bear-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="49282" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Magic Rooster Egg-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="49290" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Mechano-Hog-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="41508" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Mekgineer's Chopper-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44413" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Reins of the Crimson Deathcharger-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="52200" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Savage Raptor-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="69228" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Swift Shorestrider-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="71718" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--White Riding Camel-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="72575" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Wooly White Rhino-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="54068" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--X-51 Nether-Rocket-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="49285" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--X-51 Nether-Rocket X-TREME-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="49286" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Blazing Hippogryph-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="54069" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Corrupted Hippogryph-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="72582" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Mottled Drake-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="68008" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Amani Dragonhawk-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="68825" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Vial of the Sands-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="65891" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Ruby Panther-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="83087" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Sapphire Panther-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="83090" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Sunstone Panther-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="83089" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Jade Panther-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="83088" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Jeweled Onyx Panther-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="82453" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Geosynchronous World Spinner-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="87251" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Depleted-Kyparium Rocket-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="87250" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Rare Pets-->
+    <If Condition="(bool)Settings[&quot;BuyRareCompanions&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Rare Companions to buy.&quot;);" />
+      <!--Parrot Cage (Hyacinth Macaw)-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="8494" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Azure Whelpling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="34535" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Tiny Crimson Whelpling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="8499" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Gundrak Hatchling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="48116" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Lunar Lantern-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="74610" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Captured Firefly-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="29960" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Ammen Vale Lashling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44984" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Tiny Emerald Whelpling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="8498" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Festival Lantern-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="74611" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Mechanical Chicken-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="10398" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Disgusting Oozeling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="20769" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Guardian Cub-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="72068" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Dark Whelpling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="10822" MaxBuyout="0g0s0c" Amount="5" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Teldrassil Sproutling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44965" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Durotar Scorpion-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44973" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Tirisfal Batling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44971" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Elwynn Lamb-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44974" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Dun Morogh Cub-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44970" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Razzashi Hatchling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="48126" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Cat Carrier (Black Tabby)-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="8491" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Mechanopeep-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="45002" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Magic Lamp-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="67275" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Sen'jin Fetish-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="45606" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Mulgore Hatchling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44980" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Enchanted Broom-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44982" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Proto-Drake Whelp-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="44721" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Deviate Hatchling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="48114" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Shimmering Wyrmling - Horde-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="46821" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Shimmering Wyrmling _ Alliance-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="46820" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Enchanted Lantern-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="67274" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--De-Weaponized Mechanical Companion-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="60216" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Ravasaur Hatchling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="48122" MaxBuyout="0g0s0c" Amount="10" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Personal World Destroyer-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="59597" MaxBuyout="0g0s0c" Amount="20" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Darting Hatchling-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="48112" MaxBuyout="0g0s0c" Amount="20" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Elementium Geode-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="67282" MaxBuyout="0g0s0c" Amount="20" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Jade Owl-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="82774" MaxBuyout="0g0s0c" Amount="20" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+      <!--Sapphire Cub-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="82775" MaxBuyout="0g0s0c" Amount="20" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Uncut Gems-->
+    <If Condition="(bool)Settings[&quot;BuyUncutGems&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for uncut Pandarian Gems to buy.&quot;);" />
+      <!--Pandarian Garnet-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="76136" MaxBuyout="0g0s0c" Amount="300" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Cloth-->
+    <If Condition="(bool)Settings[&quot;BuyCloth&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Cloth to buy.&quot;);" />
+      <!--Windwool Cloth-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="72988" MaxBuyout="0g0s0c" Amount="500" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Glyphs-->
+    <If Condition="(bool)Settings[&quot;BuyGlyphs&quot;] &amp;&amp; (int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Scanning auctions for Glyphs to buy.&quot;);" />
+      <!--Death Knight Glyphs-->
+      <!--Glyph of Blood Boil-->
+      <If Condition="(int)Me.Gold &gt;= (int)Settings[&quot;BuyOut Threshold&quot;]" IgnoreCanRun="True">
+        <BuyItemFromAH ItemListType="Item" ItemID="43826" MaxBuyout="0g0s0c" Amount="20" BuyAdditively="False" AutoFindAh="True" BidOnItem="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <StackItems />
+  </SubRoutine>
+  <SubRoutine SubRoutineName="PostToAH">
+    <!--Post to the AH-->
+    <If Condition="(bool)Settings[&quot;Post to the Auction House&quot;]" IgnoreCanRun="True">
+      <StackItems />
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Posting items to the AH.&quot;);" />
+      <!--COOKING-->
+      <!--Legion Food-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133557" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133561" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133562" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133563" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133564" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133575" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133576" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133577" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133565" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133566" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133567" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133568" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133569" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133570" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133571" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133572" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133573" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133574" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133681" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133578" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="133579" MinBuyout="0g0s1c" MaxBuyout="500g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Gem Chip-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="129100" MinBuyout="0g0s1c" MaxBuyout="5g0s0c" StackSize="20" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--ALCHEMY-->
+      <!--Legion Flasks-->
+      <!--Whispered Pact-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127847" MinBuyout="500g0s0c" MaxBuyout="2000g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Seventh Demon-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127848" MinBuyout="500g0s0c" MaxBuyout="2000g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Countless Armies-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127849" MinBuyout="500g0s0c" MaxBuyout="2000g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Ten Thousand Scars-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127850" MinBuyout="500g0s0c" MaxBuyout="2000g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--LEGION POTIONS-->
+      <!--Ancient Healing-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127834" MinBuyout="500g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Ancient Mana-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127835" MinBuyout="500g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Rejuv-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127836" MinBuyout="500g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Utility Potions-->
+      <!--Deadly Grace-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127843" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Old War-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127844" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Unbending-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127845" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Leytorrent-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127846" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Draught of Raw Magic-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127837" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Sylvan Elixir-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127838" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Avalanch Elixir-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127839" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Skaggldrynk-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127840" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Skystep Potion-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="127841" MinBuyout="5g0s0c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="20" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--JEWELCRAFTING-->
+      <!--Raw Rare Legion Gems-->
+      <!--Furystone-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130178" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="5" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Dawnlight-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130180" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="5" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Pandemonite-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130181" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="5" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Maelstom Sapphire-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130182" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="5" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Shadowruby-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130183" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="5" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Eye of Prophecy-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130179" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="5" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Raw Uncommon Legion Gems-->
+      <!--Sangrite-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130172" MinBuyout="0g0s1c" MaxBuyout="40g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="2" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Deep Amber-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130173" MinBuyout="0g0s1c" MaxBuyout="40g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="2" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Azsunite-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130174" MinBuyout="0g0s1c" MaxBuyout="40g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="2" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Chaotic Spinel-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130175" MinBuyout="0g0s1c" MaxBuyout="40g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="2" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Skystone-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130176" MinBuyout="0g0s1c" MaxBuyout="40g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="2" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Queen's Opal-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130177" MinBuyout="0g0s1c" MaxBuyout="40g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="2" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--JewelCraft-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="130251" MinBuyout="0g0s1c" MaxBuyout="50000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--ENCHANTING-->
+      <!--Big Enchants-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128541" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128542" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128543" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128544" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128548" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128549" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128550" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Small Enchants-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128537" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128538" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128539" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128540" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128545" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128546" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128557" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Neck Enchants-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128551" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128552" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128553" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="141908" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="141909" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="141910" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Neck Enchants-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128558" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128559" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128560" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128561" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--Scavenger-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128554" MinBuyout="0g0s1c" MaxBuyout="10000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--TOMES OF ILLUSION-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138787" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138789" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138790" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138791" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138792" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138793" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138794" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="138795" MinBuyout="0g0s1c" MaxBuyout="20000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <!--INSCRIPTION-->
+      <!--Utility-->
+      <!--Tome of the Tranquil Mind-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Everything" ItemID="141446" MinBuyout="0g10s0c" MaxBuyout="1000g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="10" BidPrecent="100" UndercutPrecent="0.1" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="True" Location="0, 0, 0" />
+      <!--Scroll of Forgotten Knowledge-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Everything" ItemID="128980" MinBuyout="0g10s0c" MaxBuyout="500g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="10" BidPrecent="100" UndercutPrecent="0.1" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="True" Location="0, 0, 0" />
+      <!--Codex of the Tranquil Mind-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Everything" ItemID="141333" MinBuyout="0g10s0c" MaxBuyout="3000g0s0c" StackSize="5" IgnoreStackSizeBelow="1" Amount="10" BidPrecent="100" UndercutPrecent="0.1" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="True" Location="0, 0, 0" />
+      <!--Glyphs-->
+      <SellItemOnAH Category="Glyph" SubCategoryType="WoWItemGlyphClass" SubCategory="None" UseCategory="True" RunTime="_12_Hours" AmountType="Amount" ItemID="" MinBuyout="0g10s0c" MaxBuyout="5000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="1" BidPrecent="100" UndercutPrecent="0.1" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="True" Location="0, 0, 0" />
+      <!--VANTUS RUNES-->
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128987" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128988" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128989" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128990" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128991" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128992" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128993" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128994" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128995" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128996" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128997" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128998" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128999" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128000" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128001" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128002" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="128003" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="142101" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="142102" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <SellItemOnAH Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" UseCategory="False" RunTime="_12_Hours" AmountType="Amount" ItemID="142103" MinBuyout="0g0s1c" MaxBuyout="2000g0s0c" StackSize="1" IgnoreStackSizeBelow="1" Amount="3" BidPrecent="100" UndercutPrecent="0.0001" AutoFindAh="True" PostPartialStacks="True" PostIfBelowMinBuyout="False" Location="0, 0, 0" />
+      <StackItems />
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="SendHerbs">
+    <!--Deposit herbs to Guild Bank + not Withdraw herbs from Guild Bank-->
+    <If Condition="((bool)Settings[&quot;DepositHerbsGB&quot;]) &amp;&amp; !((bool)Settings[&quot;WithdrawHerbsGB&quot;])" IgnoreCanRun="True">
+      <!--Green Tea Leaf-->
+      <If Condition="InbagCount(72234) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Green Tea Leaf to the guild bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Guild" ItemID="72234" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Deposit herbs to your Personal Bank + not Withdraw herbs from your Personal Bank-->
+    <If Condition="((bool)Settings[&quot;DepositHerbsPB&quot;]) &amp;&amp; !((bool)Settings[&quot;WithdrawHerbsPB&quot;])" IgnoreCanRun="True">
+      <!--Green Tea Leaf-->
+      <If Condition="InbagCount(72234) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Green Tea Leaf to your personal bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Personal" ItemID="72234" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Deposit herbs to Guild Bank + Withdraw herbs from Guild Bank-->
+    <If Condition="((bool)Settings[&quot;DepositHerbsGB&quot;]) &amp;&amp; ((bool)Settings[&quot;WithdrawHerbsGB&quot;])" IgnoreCanRun="True">
+      <!--Green Tea Leaf-->
+      <If Condition="InbagCount(72234) &gt; 100" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Green Tea Leaf to the guild bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Guild" ItemID="72234" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Deposit herbs to your Personal Bank + Withdraw herbs from your Personal Bank-->
+    <If Condition="((bool)Settings[&quot;DepositHerbsPB&quot;]) &amp;&amp; ((bool)Settings[&quot;WithdrawHerbsPB&quot;])" IgnoreCanRun="True">
+      <!--Green Tea Leaf-->
+      <If Condition="InbagCount(72234) &gt; 100" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Green Tea Leaf to your personal bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Personal" ItemID="72234" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Mail Herbs to Scribe/Alchemist-->
+    <If Condition="(false || !string.IsNullOrEmpty((string)Settings[&quot;Scribe/Alchemist&quot;])) &amp;&amp; (InbagCount(72237) &gt;= 1 || InbagCount(72234) &gt;= 1 || InbagCount(79011) &gt;= 1 || InbagCount(72235) &gt;= 1 || InbagCount(72238) &gt;= 1 || InbagCount(79010) &gt;= 1)" IgnoreCanRun="False">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Mailing herbs to {0}.&quot;,(string)Settings[&quot;Scribe/Alchemist&quot;]);" />
+      <Custom Code="var1 = CharacterSettings.Instance.MailRecipient;" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)Settings[&quot;Scribe/Alchemist&quot;];" />
+      <!--Green Tea Leaf/Rain Poppy/Silkweed/Snow Lily/Fool's Cap/Golden Lotus-->
+      <MailItem Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Mail="All" ItemID="72234,72237,72235,79010,79011,72238" Amount="0" AutoFindMailBox="True" Location="0, 0, 0" ItemQuality="Uncommon" ItemSelection="IDs" />
+      <Wait Condition="false" Timeout="500" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)var1;" />
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="SendOre">
+    <!--Deposit ore to Guild Bank + not Withdraw ore from Guild Bank-->
+    <If Condition="((bool)Settings[&quot;DepositOreGB&quot;]) &amp;&amp; !((bool)Settings[&quot;WithdrawGemsGB&quot;])" IgnoreCanRun="True">
+      <!--Black Trillium Ore-->
+      <If Condition="InbagCount(72094) &gt;= 1" IgnoreCanRun="True">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Black Trillium Ore to the guild bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Guild" ItemID="72094" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Deposit ore to your Personal Bank + not Withdraw ore from your Personal Bank-->
+    <If Condition="((bool)Settings[&quot;DepositOrePB&quot;]) &amp;&amp; !((bool)Settings[&quot;WithdrawOrePB&quot;])" IgnoreCanRun="True">
+      <!--Black Trillium Ore-->
+      <If Condition="InbagCount(72094) &gt;= 1" IgnoreCanRun="True">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Black Trillium Ore to your personal bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Personal" ItemID="72094" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Deposit ore to Guild Bank + Withdraw ore from Guild Bank-->
+    <If Condition="((bool)Settings[&quot;DepositOreGB&quot;]) &amp;&amp; ((bool)Settings[&quot;WithdrawGemsGB&quot;])" IgnoreCanRun="True">
+      <!--Black Trillium Ore-->
+      <If Condition="InbagCount(72094) &gt; 200" IgnoreCanRun="True">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Black Trillium Ore to the guild bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Guild" ItemID="72094" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Deposit ore to your Personal Bank + Withdraw ore from your Personal Bank-->
+    <If Condition="((bool)Settings[&quot;DepositOrePB&quot;]) &amp;&amp; ((bool)Settings[&quot;WithdrawOrePB&quot;])" IgnoreCanRun="True">
+      <!--Black Trillium Ore-->
+      <If Condition="InbagCount(72094) &gt; 200" IgnoreCanRun="True">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Black Trillium Ore to your personal bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Personal" ItemID="72094" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Mail Ore to JC-->
+    <If Condition="false || !string.IsNullOrEmpty((string)Settings[&quot;Jewelcrafter&quot;]) &amp;&amp; (InbagCount(72092) &gt;= 1 || InbagCount(72103) &gt;= 1 || InbagCount(72094) &gt;= 1 || InbagCount(72093) &gt;= 1)" IgnoreCanRun="True">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Sending ore to {0}.&quot;,(string)Settings[&quot;Jewelcrafter&quot;]);" />
+      <Custom Code="var1 = CharacterSettings.Instance.MailRecipient;" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)Settings[&quot;Jewelcrafter&quot;];" />
+      <!--Black Trillium Ore/White Trillium Ore/Ghost Iron Ore/Kyparite-->
+      <MailItem Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Mail="All" ItemID="72094,72103,72092,72093" Amount="0" AutoFindMailBox="True" Location="0, 0, 0" ItemQuality="Uncommon" ItemSelection="IDs" />
+      <Wait Condition="false" Timeout="500" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)var1;" />
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="SendEnchantingMats">
+    <If Condition="((bool)Settings[&quot;DepositEnchantingMatsGB&quot;])" IgnoreCanRun="False">
+      <!--Sha Crystal-->
+      <If Condition="InbagCount(74248) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Sha Crystal(s) to the guild bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Guild" ItemID="74248" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <If Condition="((bool)Settings[&quot;DepositEnchantingMatsPB&quot;])" IgnoreCanRun="False">
+      <!--Sha Crystal-->
+      <If Condition="InbagCount(74248) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Sha Crystal(s) to your personal bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Personal" ItemID="74248" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Mail Enchanting Materials to Enchanter-->
+    <If Condition="(false || !string.IsNullOrEmpty((string)Settings[&quot;Enchanter&quot;])) &amp;&amp; (InbagCount(74248) &gt;= 1 || InbagCount(74247) &gt;= 1 || InbagCount(74252) &gt;= 1 || InbagCount(74250) &gt;= 1 || InbagCount(74249) &gt;= 1)" IgnoreCanRun="False">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Sending enchanting materials to {0}.&quot;,(string)Settings[&quot;Enchanter&quot;]);" />
+      <Custom Code="var1 = CharacterSettings.Instance.MailRecipient;" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)Settings[&quot;Enchanter&quot;];" />
+      <!--Sha Crystal/Ethereal Shard/Small Ethereal Shard/Mysterious Essence/Spirit Dust-->
+      <MailItem Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Mail="All" ItemID="74248,74247,74252,74250,74249" Amount="0" AutoFindMailBox="True" Location="0, 0, 0" ItemQuality="Uncommon" ItemSelection="IDs" />
+      <Wait Condition="false" Timeout="500" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)var1;" />
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="SendUncutGems">
+    <If Condition="((bool)Settings[&quot;DepositUncutGemsGB&quot;])" IgnoreCanRun="False">
+      <!--Pandarian Garnet-->
+      <If Condition="InbagCount(76136) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Pandarian Garnet(s) to the guild bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Guild" ItemID="76136" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <If Condition="((bool)Settings[&quot;DepositUncutGemsPB&quot;])" IgnoreCanRun="False">
+      <!--Pandarian Garnet-->
+      <If Condition="InbagCount(76136) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Pandarian Garnet(s) to your personal bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Personal" ItemID="76136" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Mail uncut Gems to JC-->
+    <If Condition="(false || !string.IsNullOrEmpty((string)Settings[&quot;Jewelcrafter&quot;])) &amp;&amp; (InbagCount(76136) &gt;= 1 || InbagCount(76130) &gt;= 1 || InbagCount(76134) &gt;= 1 || InbagCount(76137) &gt;= 1 || InbagCount(76133) &gt;= 1 || InbagCount(76135) &gt;= 1 || InbagCount(76131) &gt;= 1 || InbagCount(76140) &gt;= 1 || InbagCount(76142) &gt;= 1 || InbagCount(76139) &gt;= 1 || InbagCount(76138) &gt;= 1 || InbagCount(76141) &gt;= 1)" IgnoreCanRun="False">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Sending uncut Pandarian gems to {0}.&quot;,(string)Settings[&quot;Jewelcrafter&quot;]);" />
+      <Custom Code="var1 = CharacterSettings.Instance.MailRecipient;" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)Settings[&quot;Jewelcrafter&quot;];" />
+      <!--Pandarian Garnet/Tiger Opal/Sunstone/Alexandrite/Lapis Lazuli/Roguestone/Primordial Ruby/Vermilion Onyx/Sun's Radiance/Wild Jade/River's Heart/Imperial Amethyst-->
+      <MailItem Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Mail="All" ItemID="76136,76130,76134,76137,76133,76135,76131,76140,76142,76139,76138,76141" Amount="0" AutoFindMailBox="True" Location="0, 0, 0" ItemQuality="Uncommon" ItemSelection="IDs" />
+      <Wait Condition="false" Timeout="500" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)var1;" />
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="SendLeather">
+    <If Condition="((bool)Settings[&quot;DepositLeatherGB&quot;])" IgnoreCanRun="False">
+      <!--Magnificent Hide-->
+      <If Condition="InbagCount(72163) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Savage Leather(s) to the guild bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Guild" ItemID="72163" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <If Condition="((bool)Settings[&quot;DepositLeatherPB&quot;])" IgnoreCanRun="False">
+      <!--Magnificent Hide-->
+      <If Condition="InbagCount(72163) &gt;= 1" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing Savage Leather(s) to your personal bank.&quot;);" />
+        <PutItemInBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Deposit="All" UseCategory="False" Bank="Personal" ItemID="72163" GuildTab="0" NpcEntry="0" Amount="0" AutoFindBank="True" Location="0, 0, 0" />
+      </If>
+    </If>
+    <!--Mail Leather to Leatherworker-->
+    <If Condition="(false || !string.IsNullOrEmpty((string)Settings[&quot;Leatherworker&quot;])) &amp;&amp; (InbagCount(72163) &gt;= 1 || InbagCount(79101) &gt;= 1 || InbagCount(72120) &gt;= 1 || InbagCount(72162) &gt;= 1)" IgnoreCanRun="False">
+      <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Sending leather to {0}.&quot;,(string)Settings[&quot;Leatherworker&quot;]);" />
+      <Custom Code="var1 = CharacterSettings.Instance.MailRecipient;" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)Settings[&quot;Leatherworker&quot;];" />
+      <!--Magnificent Hide/Prismatic Scale/Exotic Leather/Sha-Touched Leather-->
+      <MailItem Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Mail="All" ItemID="72163,79101,72120,72162" Amount="0" AutoFindMailBox="True" Location="0, 0, 0" ItemQuality="Uncommon" ItemSelection="IDs" />
+      <Wait Condition="false" Timeout="500" />
+      <Custom Code="CharacterSettings.Instance.MailRecipient = (string)var1;" />
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="CountInv">
+    <Custom Code="var2 = false;" />
+    <If Condition="InbagCount(130178) &lt;= 4 &amp;&amp; InGBankCount (130178) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130180) &lt;= 4  &amp;&amp; InGBankCount (130180) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130182) &lt;= 4  &amp;&amp; InGBankCount (130182) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130183) &lt;= 4  &amp;&amp; InGBankCount (130183) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130179) &lt;= 4  &amp;&amp; InGBankCount (130179) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130172) &lt;= 9  &amp;&amp; InGBankCount (130172) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130173) &lt;= 9  &amp;&amp; InGBankCount (130173) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130174) &lt;= 9  &amp;&amp; InGBankCount (130174) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130175) &lt;= 9  &amp;&amp; InGBankCount (130175) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130176) &lt;= 9  &amp;&amp; InGBankCount (130176) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+    <If Condition="InbagCount(130177) &lt;= 9  &amp;&amp; InGBankCount (130177) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <Custom Code="var2 = true;" />
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="GetGems">
+    <If Condition="((bool)Settings[&quot;WithdrawGemsGB&quot;]) &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <If Condition="(bool)var2" IgnoreCanRun="True">
+        <CallSubRoutine SubRoutineName="MoveToGbank" />
+        <!-- Furystone -->
+        <If Condition="InbagCount(130178) &lt;= 4 &amp;&amp; InGBankCount (130178) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Furystone from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130178" NpcEntry="0" Amount="5" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Dawnlight -->
+        <If Condition="InbagCount(130180) &lt;= 4  &amp;&amp; InGBankCount (130180) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Dawnlight from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130180" NpcEntry="0" Amount="5" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Maelstrom Sapphire -->
+        <If Condition="InbagCount(130182) &lt;= 4  &amp;&amp; InGBankCount (130182) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Maelstrom Sapphire from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130182" NpcEntry="0" Amount="5" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Shadowruby -->
+        <If Condition="InbagCount(130183) &lt;= 4  &amp;&amp; InGBankCount (130183) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Shadowruby from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130183" NpcEntry="0" Amount="5" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Eye of Prophecy -->
+        <If Condition="InbagCount(130179) &lt;= 4  &amp;&amp; InGBankCount (130179) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Eye of Prophecy from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130179" NpcEntry="0" Amount="5" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Sangrite -->
+        <If Condition="InbagCount(130172) &lt;= 9  &amp;&amp; InGBankCount (130172) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Sangrite from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130172" NpcEntry="0" Amount="10" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Deep Amber -->
+        <If Condition="InbagCount(130173) &lt;= 9  &amp;&amp; InGBankCount (130173) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Deep Amber from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130173" NpcEntry="0" Amount="10" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Azsunite -->
+        <If Condition="InbagCount(130174) &lt;= 9  &amp;&amp; InGBankCount (130174) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Azsunite from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130174" NpcEntry="0" Amount="10" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Chaotic Spinel -->
+        <If Condition="InbagCount(130175) &lt;= 9  &amp;&amp; InGBankCount (130175) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Chaotic Spinel from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130175" NpcEntry="0" Amount="10" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Skystone -->
+        <If Condition="InbagCount(130176) &lt;= 9  &amp;&amp; InGBankCount (130176) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Skystone from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130176" NpcEntry="0" Amount="10" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Queens Opal -->
+        <If Condition="InbagCount(130177) &lt;= 9  &amp;&amp; InGBankCount (130177) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Queens Opal from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130177" NpcEntry="0" Amount="10" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!--Black Trillium Ore-->
+        <If Condition="InbagCount(72094) &lt; 100 &amp;&amp; InGBankCount (72094) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Black Trillium Ore from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72094" NpcEntry="0" Amount="200" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+        <!-- Pandemonite -->
+        <If Condition="InbagCount(130181) &lt;= 4  &amp;&amp; InGBankCount (130181) &gt;= 1  &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+          <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Pandemonite from the guild bank.&quot;);" />
+          <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="130181" NpcEntry="0" Amount="5" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+        </If>
+      </If>
+      <Custom Code="var2 = false;" />
+    </If>
+    <If Condition="((bool)Settings[&quot;WithdrawOrePB&quot;]) &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <!--Black Trillium Ore-->
+      <If Condition="InbagCount(72094) &lt; 200 &amp;&amp; InBankCount (72094) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Black Trillium Ore from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72094" NpcEntry="0" Amount="200" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--White Trillium Ore-->
+      <If Condition="InbagCount(72103) &lt; 200 &amp;&amp; InBankCount (72103) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing White Trillium Ore from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72103" NpcEntry="0" Amount="200" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Ghost Iron Ore-->
+      <If Condition="InbagCount(72092) &lt; 200 &amp;&amp; InBankCount (72092) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Ghost Iron Ore from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72092" NpcEntry="0" Amount="200" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Kyparite-->
+      <If Condition="InbagCount(72093) &lt; 1000 &amp;&amp; InBankCount (72093) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Kyparite from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72093" NpcEntry="0" Amount="1000" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="GetHerbs">
+    <If Condition="((bool)Settings[&quot;WithdrawHerbsGB&quot;]) &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <!--Green Tea Leaf-->
+      <If Condition="InbagCount(72234) &lt; 100 &amp;&amp; InGBankCount (72234) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Green Tea Leaf from the guild bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72234" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Rain Poppy-->
+      <If Condition="InbagCount(72237) &lt; 100 &amp;&amp; InGBankCount (72237) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Rain Poppy from the guild bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72237" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Silkweed-->
+      <If Condition="InbagCount(72235) &lt; 100 &amp;&amp; InGBankCount (72235) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Silkweed from the guild bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72235" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Snow Lily-->
+      <If Condition="InbagCount(79010) &lt; 100 &amp;&amp; InGBankCount (79010) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Snow Lily from the guild bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="79010" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Fool's Cap-->
+      <If Condition="InbagCount(79011) &lt; 100 &amp;&amp; InGBankCount (79011) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Fool's Cap from the guild bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="79011" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Golden Lotus-->
+      <If Condition="InbagCount(72238) &lt; 100 &amp;&amp; InGBankCount (72238) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Golden Lotus from the guild bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Guild" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72238" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+    </If>
+    <If Condition="((bool)Settings[&quot;WithdrawHerbsPB&quot;]) &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="True">
+      <!--Green Tea Leaf-->
+      <If Condition="InbagCount(72234) &lt; 100 &amp;&amp; InBankCount (72234) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Green Tea Leaf from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72234" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Rain Poppy-->
+      <If Condition="InbagCount(72237) &lt; 100 &amp;&amp; InBankCount (72237) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Rain Poppy from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72237" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Silkweed-->
+      <If Condition="InbagCount(72235) &lt; 100 &amp;&amp; InBankCount (72235) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Silkweed from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72235" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Snow Lily-->
+      <If Condition="InbagCount(79010) &lt; 100 &amp;&amp; InBankCount (79010) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Snow Lily from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="79010" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Fool's Cap-->
+      <If Condition="InbagCount(79011) &lt; 100 &amp;&amp; InBankCount (79011) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Fool's Cap from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="79011" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+      <!--Golden Lotus-->
+      <If Condition="InbagCount(72238) &lt; 100 &amp;&amp; InBankCount (72238) &gt;= 1 &amp;&amp; !Me.NormalBagsFull" IgnoreCanRun="False">
+        <Custom Code="Log (Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Withdrawing Golden Lotus from your personal bank.&quot;);" />
+        <GetItemfromBank Category="TradeGoods" SubCategoryType="WoWItemTradeGoodsClass" SubCategory="None" Withdraw="Amount" Bank="Personal" MinFreeBagSlots="2" GetItemfromBankType="SpecificItem" ItemID="72238" NpcEntry="0" Amount="100" AutoFindBank="True" WithdrawAdditively="False" Location="0, 0, 0" />
+      </If>
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="DepositGoldInGbank">
+    <CallSubRoutine SubRoutineName="MoveToGbank" />
+    <Interact InteractType="GameObject" Entry="0" InteractDelay="2000" GameObjectType="GuildBank" SpellFocus="Anvil" WaitForObject="True" />
+    <Wait Condition="false" Timeout="2000" />
+    <!--Deposit gold to Guild Bank-->
+    <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Depositing {0} Gold to the Guild Bank.&quot;,(Int32)Me.Gold - (Int32)Settings[&quot;DepositGold&quot;]);" />
+    <Custom Code="Lua.DoString(&quot;local goldToKeep={0}*10000 local depositAmount=(GetMoney()-goldToKeep) if depositAmount &gt; 0 then DepositGuildBankMoney(depositAmount) end&quot;,Settings[&quot;DepositGold&quot;]);" />
+    <Wait Condition="false" Timeout="2000" />
+  </SubRoutine>
+  <SubRoutine SubRoutineName="MoveToGbank">
+    <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Going to the nearest Guild Bank.&quot;);" />
+    <Define Code="List&lt;WoWPoint&gt; GBankLocations = new List&lt;WoWPoint&gt;();" />
+    <Define Code="WoWPoint GbankLocation;" />
+    <Custom Code="GBankLocations.Clear();" />
+    <Custom Code="GbankLocation = WoWPoint.Zero;" />
+    <If Condition="Me.MapId == 0" IgnoreCanRun="True">
+      <!--Undercity-->
+      <If Condition="Me.ZoneId == 1497" IgnoreCanRun="True">
+        <!--Trade Quarters Northern Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1603.914, 248.4631, -51.2896));" />
+        <!--Trade Quarters Western Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1587.67, 248.6573, -51.2757));" />
+        <!--Trade Quarters Eastern Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1603.5, 231.7855, -51.27944));" />
+        <!--Trade Quarters Southern Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1587.577, 232.0571, -51.27575));" />
+      </If>
+      <!--Stormwind-->
+      <If Condition="Me.ZoneId == 1519" IgnoreCanRun="True">
+        <!--Trade District Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(-8920.106, 621.256, 100.226));" />
+        <!--Dwarven District Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(-8315.161, 582.8967, 100.3132));" />
+      </If>
+      <!--Ironforge-->
+      <If Condition="Me.ZoneId == 1537" IgnoreCanRun="True">
+        <!--The Commons Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(-4887.285, -977.4463, 503.9403));" />
+      </If>
+    </If>
+    <If Condition="Me.MapId == 1" IgnoreCanRun="True">
+      <!--Orgrimmar-->
+      <If Condition="Me.ZoneId == 1637" IgnoreCanRun="True">
+        <!--Valley of Strength Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1533.167, -4362.145, 20.54772));" />
+        <!--Valley of Honor Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1886.409, -4683.326, 38.5004));" />
+        <!--Valley of Wisdom Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1951.516, -4216.525, 37.19798));" />
+        <!--Goblin Slums Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(1573.427, -4172.664, 51.74817));" />
+      </If>
+      <!--Thunder Bluff-->
+      <If Condition="Me.ZoneId == 1638" IgnoreCanRun="True">
+        <!--Lower Rise Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(-1257.805, 64.37354, 127.6252));" />
+      </If>
+      <!--Darnassus-->
+      <If Condition="Me.ZoneId == 1657" IgnoreCanRun="True">
+        <!--Temple Gardens Guild Bank-->
+        <Custom Code="GBankLocations.Add(new WoWPoint(9935.946, 2517.147, 1318.54));" />
+      </If>
+    </If>
+    <!--Silvermoon-->
+    <If Condition="Me.ZoneId == 3487" IgnoreCanRun="True">
+      <!--Bazaar Guild Bank-->
+      <Custom Code="GBankLocations.Add(new WoWPoint(9525.154, -7223.089, 17.4742));" />
+      <!--Royal Exchange Guild Bank-->
+      <Custom Code="GBankLocations.Add(new WoWPoint(9810.221, -7488.104, 14.53273));" />
+    </If>
+    <!--The Exodar-->
+    <If Condition="Me.ZoneId == 3557" IgnoreCanRun="True">
+      <!--Central Hub Guild Bank-->
+      <Custom Code="GBankLocations.Add(new WoWPoint(-3909.753, -11548.94, -149.9568));" />
+    </If>
+    <!--Dalaran-->
+    <If Condition="Me.ZoneId == 4395" IgnoreCanRun="True">
+      <!--North Guild Bank-->
+      <Custom Code="GBankLocations.Add(new WoWPoint(5961.328, 616.5127, 650.6276));" />
+      <!--South Guild Bank-->
+      <Custom Code="GBankLocations.Add(new WoWPoint(5651.325, 682.1651, 651.9932));" />
+    </If>
+    <If Condition="GBankLocations.Count== 0" IgnoreCanRun="True">
+      <Custom Code="Log(Colors.Crimson,&quot;AHBuddy: &quot;,Colors.BlanchedAlmond,&quot;Can not find a Guild Bank.&quot;);" />
+    </If>
+    <If Condition="GBankLocations.Count &gt; 0" IgnoreCanRun="True">
+      <Custom Code="GbankLocation  = GBankLocations.OrderBy( pnt =&gt; pnt.Distance(Me.Location)).FirstOrDefault();" />
+      <While PulseSecondaryBot="True" Condition="DistanceTo(GbankLocation) &gt; 5" IgnoreCanRun="True">
+        <Custom Code="MoveTo(GbankLocation);" />
+      </While>
+    </If>
+  </SubRoutine>
+  <SubRoutine SubRoutineName="Send C.O.D Mail">
+    <Interact InteractType="GameObject" Entry="0" InteractDelay="0" GameObjectType="Mailbox" SpellFocus="Anvil" WaitForObject="True" />
+    <Custom Code="Lua.DoString(&quot;MailFrameTab2:Click()&quot;);" />
+    <Custom Code="SendCod(Recipients, ItemIds, Prices, false);" />
+  </SubRoutine>
+</PBProfile>
